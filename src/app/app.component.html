@@ -1,21 +1,21 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12 pt-5 ">
-      <mat-tab-group mat-stretch-tabs="true" mat-align-tabs="center">
-        <mat-tab label="{{item.Name}}" *ngFor="let item of data">
+      <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="left">
+        <mat-tab label="{{item.name}}" *ngFor="let item of data">
           <div class="d-flex align-items-center justify-content-center mt-5">
-            <h1>Danh sách nhân viên tại {{item.Name}}</h1>
+            <h1>Danh sách nhân viên tại {{item.name}}</h1>
           </div>
 
-          <div class="col-md-12" *ngFor="let empl of item.Employees">
+          <div class="col-md-12" *ngFor="let empl of item.employee">
             <div class="col-12">
               <span style="font-weight: 500;">
-                {{empl.Name}}
+                {{empl.name}}
               </span>
             </div>
             <div class="col-12">
               <span>
-                {{empl.Position}}
+                {{empl.position}}
               </span>
             </div>
             <hr>

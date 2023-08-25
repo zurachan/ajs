@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Hà Nội",
+    "employee": [
+      {
+        "name": "Nguyen Van A",
+        "position": "Head Coach"
+      },
+      {
+        "name": "Nguyen Van B 2",
+        "position": "Staff"
+      },
+      {
+        "name": "Nguyen Van C 3",
+        "position": "Staff"
+      }
+    ]
+  },
+  {
+    "name": "Đà Nẵng",
+    "employee": [
+      {
+        "name": "Nguyen Van D",
+        "position": "Head Coach"
+      },
+      {
+        "name": "Nguyen Van E 2",
+        "position": "Staff"
+      },
+      {
+        "name": "Nguyen Van F 3",
+        "position": "Staff"
+      }
+    ]
+  },
+  {
+    "name": "TP Hồ Chí Minh",
+    "employee": [
+      {
+        "name": "Nguyen Van G",
+        "position": "Head Coach"
+      },
+      {
+        "name": "Nguyen Van H 2",
+        "position": "Staff"
+      },
+      {
+        "name": "Nguyen Van E 3",
+        "position": "Staff"
+      }
+    ]
+  }
+]
